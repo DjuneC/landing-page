@@ -1,4 +1,4 @@
-@import url("./assets/css/reset.css");
+/* @import url("./assets/css/reset.css"); */
 
 @font-face {
   font-family: "Roc Grotesk", sans-serif;
@@ -15,7 +15,7 @@ body {
   font-family: "Lato", sans-serif;
   line-height: 1.2;
   color: #2b2a3b;
-  /* font-family: 'Mooli', sans-serif; */
+  /* font-family: "Mooli", sans-serif; */
 }
 
 /* nav and header style */
@@ -160,7 +160,7 @@ ul li a:hover {
 
 /* cta */
 .cta {
-  padding: 30px 150px;
+  padding: 30px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -191,7 +191,7 @@ ul li a:hover {
 /* footer */
 
 footer {
-  padding: 15px;
+  padding: 20px;
   background-color: #2b2a3b;
   text-align: center;
   color: #fff;

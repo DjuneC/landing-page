@@ -1,0 +1,198 @@
+@import url("./assets/css/reset.css");
+
+@font-face {
+  font-family: "Roc Grotesk", sans-serif;
+  src: url("./assets/fonts/Roc-Grotesk/Demo_Fonts/Fontspring-DEMO-rocgrotesk-regular.otf");
+}
+
+:root {
+  --gray-color: #2b2a3b;
+  --background-header: #1f2937;
+  --hero-text: "Roc Grotesk", sans-serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.2;
+  color: #2b2a3b;
+  /* font-family: 'Mooli', sans-serif; */
+}
+
+/* nav and header style */
+
+/* header {
+  background-color: var(--background-header);
+} */
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--gray-color);
+}
+
+/* nav items */
+ul li {
+  display: inline-block;
+  padding: 15px;
+  color: #b3b7be;
+}
+
+ul li a:hover {
+  color: #6c63ff;
+  transition: 0.75s ease-out;
+}
+
+/* hero section */
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* test */
+.hero-section-left {
+  width: 50%;
+  padding: 25px;
+}
+
+.hero-section-right {
+  padding: 25px;
+
+  /* background-image: url("./assets/images/image.svg"); */
+}
+/* */
+.hero-main-text {
+  font-family: var(--hero-text);
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--gray-color);
+}
+
+.hero-secondary-text {
+  color: var(--gray-color);
+  margin-top: 10px;
+}
+
+.hero-cta {
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 15px;
+  padding: 15px 50px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.hero-image {
+  width: max-content;
+}
+
+/* services image */
+.services {
+  /* background-color: #6c63ff; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background: url("./assets/images/blob-scene-haikei.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.services-header {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.services-card {
+  display: flex;
+  margin-top: 50px;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #6c63ff;
+  border-radius: 0.75rem;
+  margin: 10px;
+  background-image: url("./assets/images/services/bot_development.svg");
+}
+/* .services-img {
+  width: 200px;
+  margin: 0 20px;
+  border: 10px solid #6c63ff;
+} */
+
+/* testimony */
+.testimony {
+  background-color: #2b2a3b;
+  color: #fff;
+  padding: 150px;
+}
+
+.testimony-text {
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+}
+
+.testimony-text p {
+  font-weight: 200;
+}
+
+.testimony-text span {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: right;
+}
+
+/* cta */
+.cta {
+  padding: 30px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h3 {
+  font-size: 38px;
+  font-weight: 800;
+  font-family: var(--hero-text);
+  color: var(--gray-color);
+}
+
+.cta-text p {
+  font-weight: lighter;
+}
+
+.cta-button button {
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px 50px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* footer */
+
+footer {
+  padding: 15px;
+  background-color: #2b2a3b;
+  text-align: center;
+  color: #fff;
+}
